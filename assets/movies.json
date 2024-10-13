@@ -1,0 +1,24 @@
+{
+    "Spider-Man 3": [
+      {"title": "Spider-Man 2", "poster": "spiderman2.jpeg"},
+      {"title": "Spider-Man", "poster": "spiderman.jpeg"},
+      {"title": "The Amazing Spider-Man 2", "poster": "amazing-spiderman2.jpeg"},
+      {"title": "Spider-Man 3", "poster": "spiderman3.jpeg"},
+      {"title": "Arachnophobia", "poster": "arachnophobia.jpg"}
+    ],
+    "Spider-Man 2": [
+      {"title": "Spider-Man 3", "poster": "spiderman3.jpeg"},
+      {"title": "Spider-Man", "poster": "spiderman.jpeg"},
+      {"title": "Arachnophobia", "poster": "arachnophobia.jpg"},
+      {"title": "Spider-Man 3", "poster": "spiderman3.jpeg"},
+      {"title": "The Amazing Spider-Man 2", "poster": "amazing-spiderman2.jpeg"}
+    ],
+    "Spider-Man": [
+      {"title": "Spider-Man 3", "poster": "spiderman3.jpeg"},
+      {"title": "Spider-Man 2", "poster": "spiderman2.jpeg"},
+      {"title": "The Amazing Spider-Man 2", "poster": "amazing-spiderman2.jpeg"},
+      {"title": "Arachnophobia", "poster": "arachnophobia.jpg"},
+      {"title": "Spider-Man 3", "poster": "spiderman3.jpeg"}
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommender System</title>
+  <link rel="stylesheet" href="./styles/home.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Movie Recommender System Using Machine Learning</h1>
+    <label for="movies">Select a movie from the dropdown</label>
+    <select id="movies">
+      <option value="Spider-Man 3">Spider-Man 3</option>
+      <option value="Spider-Man 2">Spider-Man 2</option>
+      <option value="Spider-Man">Spider-Man</option>
+    </select>
+    <button id="showRecBtn">Show Recommendation</button>
+
+    <div class="movie-grid" id="movie-grid">
+      <!-- The movie cards will be automatically generated here -->
+    </div>
+  </div>
+
+  <script src="./scripts/home.js"></script>
+</body>
+
+</html>
