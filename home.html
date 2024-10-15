@@ -11,13 +11,10 @@
 <body>
   <div class="container">
     <h1>Movie Recommender System Using Machine Learning</h1>
-    <label for="movies">Select a movie from the dropdown</label>
-    <select id="movies">
-      <option value="Shutter Island (2010)">Shutter Island (2010)</option>
-      <option value="Inception (2010)">Inception (2010)</option>
-      <option value="Toy Story (1995)">Toy Story (1995)</option>
-      <option value="Catch Me If You Can (2002)">Catch Me If You Can (2002)</option>
-    </select>
+    <label for="movie-search">Search for a movie:</label>
+    <input type="text" id="movie-search" placeholder="Type to search for a movie..." autocomplete="off"
+      style="padding: 10px; margin-bottom: 10px; width: 100%; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+    <ul id="movie-suggestions" class="suggestions-list" style="max-height: 50px;"></ul>
     <button id="showRecBtn">Show Recommendation</button>
 
     <div class="movie-grid" id="movie-grid">
@@ -25,6 +22,7 @@
     </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   <script src="./scripts/home.js"></script>
 </body>
 
